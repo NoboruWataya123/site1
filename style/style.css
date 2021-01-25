@@ -1,0 +1,321 @@
+@font-face{
+     
+    font-family: 'A Garamond Pro';
+    src: local("./font/Adobe Garamond Pro Regular.ttf");
+}
+
+body{
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.container{
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+.navbar{
+    position: relative;
+    top: 1.8rem;
+    left: auto;
+    text-align: center;
+    font-size: 36px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-auto-rows: minmax(450px, auto);
+    grid-template-areas:
+      "ld ld cd   cd   rd   rd   wd   wd"
+      "clsd clsd cdmain cdmain crmain crmain cwmain cwmain";
+}
+
+.ld{
+    grid-area: ld;
+}
+
+.nld{
+    display: flex;
+    flex-direction:row ;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 282px;
+    height: 382px;
+    color: white;
+    float: right;
+    margin-top: 4rem;
+    margin-bottom: 0px;
+}
+
+.cd{
+    grid-area: cd;
+}
+
+.ncd{
+    display: flex;
+    flex-direction:row ;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 282px;
+    height: 382px;
+    color: white;
+    float: right;
+    margin-top: 4rem;
+    margin-bottom: 0px;
+}
+
+.rd{
+    grid-area: rd;
+    margin-left: 2rem;
+}
+
+.wd{
+    grid-area: wd;
+    margin-left: 2rem;
+}
+
+.clsd{
+    grid-area: clsd;
+    margin-left: 7rem;
+}
+
+.cdmain{
+    grid-area: cdmain;
+    margin-left: 2rem;
+}
+
+.crmain{
+    grid-area: crmain;
+}
+.ncrmain{
+    display: flex;
+    flex-direction:row ;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 282px;
+    height: 382px;
+    color: white;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.cwmain{
+    grid-area: cwmain;
+}
+
+.ncwmain{
+    display: flex;
+    flex-direction:row ;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 282px;
+    height: 382px;
+    color: white;
+    float: left;
+    margin-bottom: 0px;
+}
+
+.img1{
+    transform: rotate(-90deg);
+    width: 10px;
+    height: 51px;
+    opacity: 0.4;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    /* Text style for "C, oll. N°" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height:normal;
+}
+
+
+.textimg{
+    width: 191px;
+height: 23px;
+color: #000000;
+font-family: "A Garamond Pro";
+font-size: 24px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 33.52px;
+text-align: left;
+font-style: normal;
+letter-spacing: -0.64px;
+line-height: normal;
+position:relative;
+top: -80px; left: -50px;
+}
+
+.img2{
+    transform: rotate(-90deg);
+    width: 10px;
+    height: 51px;
+    opacity: 0.4;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    /* Text style for "C, oll. N°" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.img3{
+    transform: rotate(-90deg);
+    width: 10px;
+    height: 51px;
+    opacity: 0.4;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    /* Text style for "C, oll. N°" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height:normal;
+}
+
+.img4{
+    transform: rotate(-90deg);
+    width: 10px;
+    height: 51px;
+    opacity: 0.4;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 30px;
+    text-align: center;
+    /* Text style for "C, oll. N°" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height:normal;
+}
+
+.textimgtwo{
+    width: 191px;
+height: 23px;
+color: #000000;
+font-family: "A Garamond Pro";
+font-size: 24px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 33.52px;
+text-align: left;
+font-style: normal;
+letter-spacing: -0.64px;
+line-height: normal;
+position:relative;
+top: -80px; left: -50px;
+}
+
+.textimgthree{
+    width: 191px;
+height: 23px;
+color: #000000;
+font-family: "A Garamond Pro";
+font-size: 24px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 33.52px;
+text-align: left;
+font-style: normal;
+letter-spacing: -0.64px;
+line-height: normal;
+position:relative;
+top: -80px; left: -50px;
+}
+
+.textimgfour{
+    width: 191px;
+height: 23px;
+color: #000000;
+font-family: "A Garamond Pro";
+font-size: 24px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 33.52px;
+text-align: left;
+font-style: normal;
+letter-spacing: -0.64px;
+line-height: normal;
+position:relative;
+top: -80px; left: -50px;
+}
+
+table{
+    justify-content: center;
+    width: 49px;
+    height: 190px;
+    margin-top: 3.4rem;
+    margin-left: 1rem;
+}
+
+.table{
+    opacity: 0.4;
+    color: #000000;
+font-family: "A Garamond Pro";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 36px;
+text-align: left;
+/* Text style for "C, oll. N°" */
+font-style: normal;
+letter-spacing: -0.38px;
+line-height: normal;
+}
+
+.herolist{
+opacity: 1;
+color: #000000;
+font-family: "A Garamond Pro";
+font-size: 14px;
+font-weight: bold;
+font-style:normal;
+}
+
+.ltable{
+    justify-content: right;
+    width: 49px;
+    height: 190px;
+    position: relative;
+    top: 7rem;
+    left: 7rem;
+}
+
+.otable{
+    justify-content: right;
+    width: 49px;
+    height: 190px;
+    position: relative;
+    top: 7rem;
+    left: 5rem;
+}
+
+.atable{
+    justify-content: center;
+    width: 49px;
+    height: 190px;
+    margin-top: 3.4rem;
+    margin-left: 1rem;
+}
